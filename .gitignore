@@ -2,3 +2,10 @@ target/
 
 # NetBeans #
 nbactions.xml
+
+# Java #
+## A DECOMMENTER
+#*.jar
+#*.war
+#*.ear
+#*.class
