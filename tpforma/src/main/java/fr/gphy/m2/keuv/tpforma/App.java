@@ -5,9 +5,7 @@ package fr.gphy.m2.keuv.tpforma;
  *
  */
 public class App {
-
     public static void main(String[] args) {
-        System.out.println("Nom!");
-        System.out.println("Mili!"); 
+        system.out.println("qqchose")
     }
 }
