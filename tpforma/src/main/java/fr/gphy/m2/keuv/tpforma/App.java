@@ -7,6 +7,6 @@ package fr.gphy.m2.keuv.tpforma;
 public class App {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        System.out.println("Son nom!");
     }
 }
