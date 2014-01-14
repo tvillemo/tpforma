@@ -17,4 +17,8 @@ public class PDBUrlBuilder{
 		}
 		in.close();
 	}
+	
+	 public static void main(String[] args) {
+	     PDBUrlBuilder.getFirstPdbUrl("P07900");
+	 }
 }
