@@ -5,6 +5,14 @@ public class PDBUrlBuilder{
 		URL url = new URL("http://www.uniprot.org/uniprot/"+uniprotId+".txt");
 		BufferedReader in = new BufferedReader(new InputStreamReader(url.openStream()));
 		// lire fichier
-		return null;
+		String line;
+		while ((line = in.readLine())!=null){
+			if (line.matches("^DR\\s+PDB;.+$")){
+				in.close();
+				return new URL("http:/www.ebi.ac.uk/pdbe/ent/ryfiles/pdb"+ line.substring(10,14).toLowerCase()+".ent");
+				
+			}
+		}
+		in.close();
 	}
 }
