@@ -6,6 +6,6 @@ package fr.gphy.m2.keuv.tpforma;
  */
 public class App {
     public static void main(String[] args) {
-        system.out.println("qqchose")
+        system.out.println("autre chose")
     }
 }
